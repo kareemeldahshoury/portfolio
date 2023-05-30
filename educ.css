@@ -1,0 +1,39 @@
+body{
+    background-color: #27374D;
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+@media (max-width: 650px){
+    .edu{
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
+.C1{
+    margin: 20px;
+}
+
+.C2{
+    margin: 20px;
+}
+
+.edu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+@media (max-width: 650px){
+    .edu2{
+        flex-direction: column;
+        height: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+
+body{
+    background-color: #27374D;
+    color:#DDE6ED;
+}
+
+#testimonial{
+    background-color: #27374D;
+}
+#skills{
+    color: #DDE6ED;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+
+#testimonial p{
+    font-size: 2rem;
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+/*.cont{
+    background-image: linear-gradient(#27374D, #526D82, #9DB2BF, #DDE6ED);
+}*/
+.cont{
+    background-image: linear-gradient(#DDE6ED, #9DB2BF, #526D82, #27374D);
+}
+.front{
+    height: 100vh;
+    padding-top: 20%;
+}
